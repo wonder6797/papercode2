@@ -1,0 +1,38 @@
+# Large inputs
+*.mat
+*.xlsx
+*.xls
+
+# Results and generated outputs
+outputs*/
+figures*/
+tables*/
+*_outputs/
+*_results/
+*.csv
+*.png
+*.fig
+*.log
+
+# MATLAB/editor/temp files
+*.asv
+*.m~
+*.tmp
+*.bak*
+
+# Python/cache/editor metadata
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Versioned input data. These are intentionally committed through Git LFS
+# so the Rev04 code can run after cloning the private repository.
+!Data output.xlsx
+!01_core_code/inner_inputs_2016_v3.mat
+!08_legacy_reference/wind_CF_storage_base_v2.mat
+!08_legacy_reference/level1_inputs.mat
+!08_legacy_reference/province_assignment_QA/
+!08_legacy_reference/province_assignment_QA/**
+!data/
+!data/**
